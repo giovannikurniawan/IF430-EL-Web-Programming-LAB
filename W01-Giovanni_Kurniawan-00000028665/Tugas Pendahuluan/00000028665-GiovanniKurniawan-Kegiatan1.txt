@@ -1,0 +1,45 @@
+1. Pada single quote, parser php akan menganggap seluruh karakter (string) yang dibatasi oleh  
+single quote adalah benar-benar string, yang tidak 
+perlu diperiksa apakah ada variable / escape character di dalamnya.
+
+echo "I'm \"not\" a girl<br>I'm a woman";
+
+output : 
+
+I'm "not" a girl
+I'm a woman
+
+2. Pada double quote, parser php akan memeriksa seluruh isi string, 
+mulai dari karakter pertama sampai habis, untuk mencari 
+kemungkinan adanya variable / escape character yang harus disesuaikan isinya.
+
+<?php echo 'That is Mario\\\'s cat<br>Her name is <strong>Maria</strong>'; ?>
+
+output : 
+
+That is Mario\'s cat
+Her name is *bolt*Maria*bolt*
+
+2. Lengkapilah potongan kode berikut agar dapat menampilkan ‘ping’ untuk kelipatan 3, ‘pong’ untuk
+kelipatan 5, ‘ping pong’ untuk kelipatan 3 dan 5, dan ‘dum’ untuk yang bukan kelipatan 3 atau 5.
+
+Jawaban : 
+
+<?php
+
+for ($i = 1; $i <= 50; $i++)
+{
+if ( $i%3 == 0 && $i%5 == 0 ) {
+                     $desc = 'ping pong';
+          } else if ($i%3 == 0) {
+                     $desc = 'ping';
+          } else if ($i%5 == 0) {
+                     $desc = 'pong';
+          } else {
+                     $desc = 'dum';
+          }
+          echo ("$i - $desc<br>");
+}
+
+
+?>
