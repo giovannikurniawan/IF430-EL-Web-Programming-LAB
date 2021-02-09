@@ -1,0 +1,9 @@
+1. MySQLI : bersifat procedural maupun object-oriented dan hanya mendukung SQL.
+    PDO : murni bersifat object-oriented dan mendukung database selain SQL (contoh :
+              Microsoft SQL Server/Sybase, Firebird, Oracle)
+
+2.  MySQLI menggunakan fetch_assoc untuk mendapatkan data dari row yang di-query, sedangkan
+      PDO langsung mengambil data row dari hasil query
+
+3. MySQLI, karena itu procedural dan lebih mudah dipahami, dan saya sudah pernah menggunakan
+    MySQL, sehingga bisa dibilang lebih familliar.
