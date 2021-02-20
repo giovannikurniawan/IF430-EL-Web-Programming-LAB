@@ -1,0 +1,23 @@
+1. Jelaskan apa yang dimaksud php predifined variable! Berikan juga 4 contoh nya beserta fungsinya.
+2. Jelaskan perbedaan get dan post method serta sebutkan juga kelebihan masing-masing method!
+
+
+Jawab : 
+
+1. Predefined variable adalah variable yang sudah disediakan dari php.
+$GLOBALS : menyimpan variable dalam scope global
+$_GET    : menyimpan variable yang dikirim dengan method GET
+$_POST   : menyimpan variable yang dikirim dengan method POST
+$_FILES  : menyimpan variable yang berisi informasi file yang diupload
+
+2. GET adalah method yang menyimpan data di url.
+Kelebihan :
+- bisa dibookmark
+- dapat disimpan dalam history
+- tersimpan di cache
+
+POST adalah method yang menyimpan data di httprequest.
+Kelebihan :
+- data tidak diperlihatkan
+- tidak ada limit karakter
+- lebih sulit diretas
