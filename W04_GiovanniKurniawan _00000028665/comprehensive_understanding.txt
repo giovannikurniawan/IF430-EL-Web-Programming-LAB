@@ -1,0 +1,25 @@
+1. -SQL Injection, atau biasa disebut SQLi adalah suatu teknik penyerangan web dengan menggunakan command
+      SQL yang berbahaya untuk memanipulasi database. 
+    -Cross Side Scripting, atau bisa disebut XSS, adalah salah satu jenis serangan code injection yang dilakukan oleh
+     penyerang dengan cara memasukkan kode HTML atau client script code lainnya ke suatu situs sehingga 
+     serangan ini akan seolah-olah datang dari situs tersebut.
+
+2. -Cara mencegah Cross Side Scripting : 
+      -Melakukan pengujian untuk tiap halaman yang dibangun, dan melakukan pengecekan ulang untuk tiap
+       inputan dari pengguna, untuk menghindari celah serangan XSS.
+      -Para pengguna aplikasi web dinamis harus berhati-hati dalam menggunakan aplikasi web, karena enkripsi
+        dan berlapisnya firewall tidak menjamin aplikasi web tersebut aman.
+      Cara mencegah SQL Injection :
+       -Menggunakan mysql_real_escape_string()
+       -Menggunakan addslashes()
+      -Menggunakan fungsi htmlspecialchars() dalam PHP
+      Cara lain :
+      -Sanitasi field input
+      -Menggunakan md5   
+
+3. MD5 (Message Digest 5) adalah algoritma kriptografi yang mengambil data acak, baik tulisan atau biner sebagai input
+    dan menghasilkan ukuran nilai hasil tetap sebagai outputnya.
+
+4. -shal
+    -Base64
+    -WHIRLPOOL
