@@ -1,0 +1,67 @@
+1.
+-OOP menyediakan struktur modular yang jelas untuk program sehingga OOP sangat bagus
+   digunakan untuk mendefinisikan tipe data abstrak di mana detil implementasinya
+   tersembunyi.
+-OOP akan mempermudah dalam me-maintain dan memodifikasi kode yang sudah ada,
+   sehingga objek yang baru dapat dibuat tanpa mengubah kode yang sudah ada.
+-OOP menyediakan framework untuk library kode di mana komponen software yang tersedia
+   dapat dengan mudah diadaptasi dan dimodifikasi oleh programmer. Hal ini sangat berguna
+   untuk mengembangkan GUI (Graphical User Interface).
+-Improved software-development productivity :
+   -Modularity : pembuatan program dengan membuat modul-modul berupa object.
+   -Flexibility : sistem program dapat dimodifikasi tanpa melibatkan banyak modul, hanya
+   object yang terlibat saja.
+   -Extensibility : class object dapat dikembangkan dengan menambahkan attributes dan
+   behaviors baru.
+   -Expandability : sistem program dapat dikembangkan sampai skala yang paling kompleks
+   (large scale software system).
+   -Reusability : class object dipakai lagi pada lintas aplikasi progra.
+   -Improved software maintainability - karena design-nya modular, bagian dari software system
+   dapat dengan mudah di-maintain jika ada perubahan meskipun dalam skala besar.
+
+2.
+a. Class digunakan hanya untuk membuat kerangka dasar, yang akan kita pakai nantinya adalah
+   hasil cetakan dari class, yaitu object.
+   Contoh :
+   class Bicycle {
+   public $brand;
+   public $model;
+   }
+b. Object adalah hasil cetak dari class, atau hasil "konkrit" dari class.
+   Contoh :
+   $smartphone = new Smartphone();
+c. Inheritance adalah konsep OOP dimana sebuah class dapat mewariskan property dan method yang
+   dimilikinya kepada class clain.
+   Contoh :
+   class Relationship{}
+   class Mantan extends Relationship{}
+d. Constructor adalah method khusus yang akan dijalankan secara otomatis pada saat sebuah objek dibuat,
+   yaitu ketika perintah "new" dijalankan
+   Contoh :
+   <?php
+   class myClass{
+   public $prop01 = "I'm a class property;"
+   public $property02;
+   public function __construct(){
+      $this->property02 = "This value is assigned default";
+   }
+   }
+   $obj = new MyClass();
+   echo $obj -> property2;
+   ?>
+e. Destructor adalah method khusus yang dijalankan secara otomatis pada saat sebuah objek dihapus.
+   Contoh :
+   <?php
+   class MyDestructableClass{
+      function __construct(){print "In construction\n"; $this->name = "MyDestructableClass";}
+      function __destruct(){
+         print "Destroying" .$this->name . "\n"'
+      }
+   }
+   $obj = new MyDestructableClass();
+   ?>
+
+3.
+-Model adalah pengolah data yang berkomunikasi dengan database.
+-Controller adalah pengolah request user dan mengembalikan request user dalam bentuk View.
+-View adalah tampilan yang ditampilkan ke user.
