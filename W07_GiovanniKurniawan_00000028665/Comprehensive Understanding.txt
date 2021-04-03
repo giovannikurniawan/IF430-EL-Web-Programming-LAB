@@ -1,0 +1,32 @@
+1. Sebutkan dan Jelaskan kategori dari PHP Framework beserta contoh nya!
+
+-MVC (Model, View, dan Controller), biasanya digunakan untuk :
+-Website yang memiliki sistem yang menyimpan data dalam jumlah yang besar
+-Website dengan fungsi-fungsi yang tidak biasa ada di website lain atau unik
+Contoh: 
+-Codelgnitor
+-Symfony2
+-Zend Framework
+
+-CMS (Content Management System), digunakan untuk website yang menampilkan sesuatu dari halaman yang berbeda dan memiliki form untuk register, 
+contact us, dan e-Commerce.
+Contoh:
+-WordPress
+-Joomla
+-Drupal
+
+2. Jelaskan minimal 5 framework kategori web CMS!
+
+-Joomla: Biasanya Joomla digunakan untuk membuat website yang sedikit rumit dan kompleks misalnya seperti company profile sebuah perusahaan, 
+web sekolah, ataupun online shop.
+
+-WordPress: WordPress merupakan CMS yang berbasis blog. CMS ini banyak digunakan karena user friendly dan memudahkan dalam optimasi search 
+engine atau SEO. Biasanya orang menggunakan WordPress untuk toko online, web company profile, ataupun web forum.
+
+-Drupal: CMS ini bersifat terbuka dan bebas didownload dibawah lisensi GPL sehingga user bisa bebas untuk publish sesuai dengan keinginan 
+mereka. Penggunaannya agak sulit untuk user baru tetapi kelebihan yang dimiliki CMS ini file size-nya ringan dan instalasi yang mudah  serta 
+dukungan dari database selain MySQL.
+
+-Aura: Aura adalah CMS buatan Indonesia tetapi karena belum banyak yang mengembangkan CMS ini, Aura memiliki banyak kekurangan.
+
+-Prestashop: CMS ini khusus digunakan dalam membangun toko online. Prestashop berbasis Linux atau Windows.
