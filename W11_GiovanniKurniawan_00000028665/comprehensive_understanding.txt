@@ -1,0 +1,11 @@
+(NOMOR 1)
+site_url() => mengembalikan situs URL sesuai dengan yang ditentukan file konfigurasi.
+anchor() => membuat tautan anchor HTML standar berdasarkan alamat URL lokal.	
+mailto() => membuat tautan e-mail HTML standar.
+redirect() => mengarahkan user dari halaman satu ke halaman lainnya.
+
+(NOMOR 2)
+Buka file database.php (application => config => database.php), kemudian isi 'database' dengan nama database yang digunakan
+
+(NOMOR 3)
+Fungsinya adalah menentukan apa saja yang secara otomatis akan dipanggil saat sistem berjalan, supaya tetap ringan dan cepat.
