@@ -1,0 +1,22 @@
+1. Sebutkan dan jelaskan fitur-fitur dari grocery crud!
+
+  - Simple yet Powerful: Pengunaan kode yang sangat simple, disertai desain UI yang sederhana. 
+  - Browser Compatibility: Grocery CRUD mendukung semua browser utama, Chrome, Safari, Firefox, Opera, dan ya, bahkan Internet Explorer.
+  - Multilingual: Sudah diterjemahkan ke dalam 34 bahasa.
+  - CI + Grocery CRUD: Grocery CRUD bekerja dengan salah satu kerangka kerja yang paling sederhana di luar sana. Codeigniter akan menjadi 
+    pilihan yang mudah ketika kita ingin kerangka sederhana namun kuat.
+  - Customise everything: Semuanya otomatis tetapi anda bebas untuk mengubah hampir segalanya. Anda dapat menyesuaikan kolom, bidang dan semua 
+    operasi dengan menggunakan callback.
+
+2. Jelaskan kegunaan dari callback pada grocery crud dan sebutkan tipe-tipenya!
+
+  Fungsi callback ini berfungsi untuk melakukan escaping terhadap suatu proses operasi dan memasukkan logika sebelum meneruskan ke proses 
+  akhir. 
+  Tipe-tipe Callback:
+  - Callback Insert
+  - Callback Delete
+  - Callback After (delete, insert, update, upload)
+  - Callback Before (delete, insert, update, upload)
+  - Callback add field
+  - Callback edit field
+  - Callback Update
